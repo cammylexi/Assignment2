@@ -5,7 +5,7 @@ world scenario where tasks need to be scheduled and processed based on their
 processing time and priority. You will develop a system to manage and prioritize a large
 number of tasks efficiently using a priority queue
 
-Camryn McPhaul -- 48876677
+Camryn_McPhaul_48876677
 
 //Output of the program and text file
 

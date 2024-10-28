@@ -15,13 +15,13 @@ public class Main {
             MinPQ<Job> pq1 = new MinPQ<>(100);
             String filename1 = "C:\\Users\\cammc\\IdeaProjects\\Assignment 2\\src\\task1-input.txt";
             LoadInputTask1(pq1, filename1);
-            ExecuteTasks(pq1, "Task 1\nExecution Order", writer);
+            ExecuteTasks(pq1, "Task 1 Output\nExecution Order", writer);
 
             // Task 2: Priority-Based Processing
             MinPQ<JobClass2> pq2 = new MinPQ<>(100);
             String filename2 = "C:\\Users\\cammc\\Downloads\\task2-input.txt";
             LoadInputTask2(pq2, filename2);
-            ExecuteTasks(pq2, "Task 2\nExecution Order", writer);
+            ExecuteTasks(pq2, "Task 2 Output\nExecution Order", writer);
 
             // Task 3: Arrival Time and Processing Time
             String filename3 = "C:\\Users\\cammc\\Downloads\\task3-input.txt";
@@ -113,8 +113,8 @@ public class Main {
         int currentTime = 0;
         int totalTime = 0;
 
-        writer.print("Task 3\nExecution order: [");
-        System.out.print("Task 3\nExecution order: [");
+        writer.print("Task 3 Output\nExecution Order: [");
+        System.out.print("Task 3 Output\nExecution Order: [");
 
         while (!jobs.isEmpty() || !pq.isEmpty()) {
             ArrayList<JobClass3> incomingJobs = new ArrayList<>();
